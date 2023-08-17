@@ -1,0 +1,33 @@
+
+git clone https://github.com/Jioh19/Checkpoint-JuanOh.git
+cd Checkpoint-JuanOh/
+touch main.js index.html
+git add .
+git commit -m "commit 01 de JuanOh"
+git push origin main
+git branch "feature"
+git checkout "feature"
+mkdir Hardware Software "SeguridadInformatica"
+cd Hardware/
+touch resumen.txt
+cd ..
+cd Software/
+touch resumen.txt
+cd ..
+cd SeguridadInformatica/
+touch resumen.txt
+cd ..
+ls
+git add .
+git commit -m "commit 02 de JuanOh"
+git push origin feature
+git checkout main
+mv main.js "resumenHardware.txt"
+mv index.html "resumenSoftware.txt"
+vim resumenHardware.txt
+vim resumenSoftware.txt
+touch comandos.txt
+vim comandos.txt
+git add .
+git commit -m "commit 03 de JuanOh"
+git push origin main
